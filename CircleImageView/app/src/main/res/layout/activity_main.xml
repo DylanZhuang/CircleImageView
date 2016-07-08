@@ -5,38 +5,102 @@
     android:layout_margin="10dp"
     android:orientation="vertical">
 
-    <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_margin="10dp"
-        android:src="@drawable/test"
-        circle_icon:stroke_color="#ff0000"
-        circle_icon:stroke_width="1dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
-        android:id="@+id/random_icon"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_margin="10dp"
-        circle_icon:stroke_color="#000000"
-        circle_icon:stroke_width="1dp"
-        circle_icon:text="A"
-        circle_icon:text_size="25sp"
-        circle_icon:random_backgroud="@color/colorAccent"/>
+        <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test"
+            circle_icon:stroke_color="#ff0000"
+            circle_icon:stroke_width="1dp" />
 
-    <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_margin="10dp"
-        android:src="@drawable/test" />
+        <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
+            android:id="@+id/icon_two"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test"
+            circle_icon:stroke_color="#ff0000"
+            circle_icon:stroke_width="1dp" />
+    </LinearLayout>
 
-    <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
-        android:id="@+id/random_icon1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_margin="10dp"
-        circle_icon:text="B"
-        circle_icon:text_size="25sp"
-        circle_icon:random_backgroud="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
+            android:id="@+id/random_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            circle_icon:random_backgroud="@color/colorAccent"
+            circle_icon:stroke_color="#000000"
+            circle_icon:stroke_width="1dp"
+            circle_icon:text="A"
+            circle_icon:text_size="25sp" />
+
+        <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
+            android:id="@+id/icon_three"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            circle_icon:random_backgroud="@color/colorAccent"
+            circle_icon:stroke_color="#000000"
+            circle_icon:stroke_width="1dp"
+            circle_icon:text="A"
+            circle_icon:text_size="25sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test" />
+
+        <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
+            android:id="@+id/icon_four"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
+            android:id="@+id/random_icon1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            circle_icon:random_backgroud="@color/colorPrimary"
+            circle_icon:text="B"
+            circle_icon:text_size="25sp" />
+
+        <com.dylan.circleimageview.CircleImageView xmlns:circle_icon="http://schemas.android.com/apk/res/com.dylan.circleimageview"
+            android:id="@+id/icon_five"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            circle_icon:random_backgroud="@color/colorPrimary"
+            circle_icon:text="B"
+            circle_icon:text_size="25sp" />
+    </LinearLayout>
+
 
 </LinearLayout>
